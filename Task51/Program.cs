@@ -3,7 +3,7 @@
 1 4 7 2
 5 9 2 3
 8 4 2 4
-Сумма элементов главной диагонали: 1+9+2 = 12  */
+
 
 int[,] fillArray(int rowsCount, int columnCount)
 {
