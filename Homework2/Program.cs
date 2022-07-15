@@ -67,7 +67,7 @@ Console.WriteLine("введите номер позиции интересующ
 int element = Convert.ToInt32(Console.ReadLine());
 if (element >= 0 && element < arrayOfPositions2D.Length)
 {
-    Console.WriteLine(arrayOfPositions2D[element]);
+    Console.WriteLine($"Элемент с {element} позицией  = {arrayOfPositions2D[element]}");
 }
 else
 {
