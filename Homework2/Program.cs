@@ -13,7 +13,7 @@ int[,] Fill2DArray(int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i,j] = new Random().Next(0,10);
+            array[i,j] = new Random().Next(0,100);
         }   
     }
     return array;
